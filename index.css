@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: system-ui;
+}
+
+.card-content {
+    color: 1px solid red;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.menu-item {
+    text-decoration: none;
+}
+
+.content {
+    height: 100vh;
+  }
+  
+  /*---------*/
+  
+  .galeria {
+    width: 100%;
+    display: flex;
+  }
+  
+  .img  {
+    background-size: cover;
+    width: 25%;
+    padding: 140px 160px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+  }
+  
+  .bck-1 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)), url('sunnyside-agency-landing-page-main/images/mobile/image-graphic-design.jpg');
+  }
+  
+  .bck-2 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)), url('sunnyside-agency-landing-page-main/images/mobile/image-photography.jpg');
+  }
+  
+  .img i,span {
+    color: #fff;
+  }
